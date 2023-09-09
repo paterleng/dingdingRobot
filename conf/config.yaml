@@ -1,35 +1,34 @@
 
   app:
-    name: "dingding"
-    mode: "dev"
-    port: 8889
-    version: "v0.0.1"
-    start_time: "2020-07-01"
+    name: "项目名"
+    mode: "模式"
+    port: 端口
+    version: "版本"
+    start_time: "创建时间"
     machine_id: 1
-    #测试数据库
+    #数据库
   mysql:
-    host: "8.130.137.7"
-    port: "3306"
-    user: "root"
-    password: "17638641623"
-    dbname: "ding_v3_marchsoft"
+    host: "服务器地址"
+    port: "端口"
+    user: "用户名"
+    password: "密码"
+    dbname: "数据库"
     max_open_conns: 200
     max_idle_conns: 50
   redis:
-    db: 4
-    addr: 121.43.119.224:6379
-    password: "18737480171..Yy"
-  #  正式数据库
+    db: redis仓库
+    addr: IP:端口
+    password: "密码"
   log:
-    level: "info"
-    filename: "web_app.log"
+    level: "日志水平"
+    filename: "日志名称"
     max_size: 200
     max_age: 30
     max_backups: 7
   auth:
-    jwt_expire: 8760
+    jwt_expire: 
   kafka:
-    address: "121.43.119.224:9092"
+    address: "IP:端口"
 
 
 
